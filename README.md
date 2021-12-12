@@ -2,6 +2,7 @@
 Python scripts for performing object detection with the 1000 labels of the ImageNet dataset in ONNX. The repository combines a class agnostic object localizer to first detect the objects in the image, and next a ResNet50 model trained on ImageNet is used to label each box.
 
 ![Imagenet 1K Object Detection](https://github.com/ibaiGorordo/ONNX-ImageNet-1K-Object-Detector/blob/main/doc/img/output_balloon.jpg)
+*Original image: https://commons.wikimedia.org/wiki/File:Il_cuore_di_Como.jpg*
 
 # Why
 There are a lot of object detection models, but since most of them are trained in the COCO dataset, most of them can only detect a maximum of 80 classes. This repository proposes a "quick and dirty" solution to be able to detect the 1000 objects available in the ImageNet dataset.
