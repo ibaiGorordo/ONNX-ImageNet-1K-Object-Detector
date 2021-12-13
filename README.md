@@ -45,7 +45,7 @@ The original model from PaddleClas (link at the bottom) was converted to ONNX fo
   * **Webcam inference**:
  
  ```
- python video_object_detection.py
+ python webcam_object_detection.py
  ```
 
  # Examples
